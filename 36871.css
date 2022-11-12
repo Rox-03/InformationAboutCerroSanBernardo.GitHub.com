@@ -11,7 +11,7 @@ body{
 #BoxCenter{
 	background-color: wheat;
 	margin: 0 auto;
-	width: 900px;
+	width: 980px;
 	text-align: center;
 	border-radius: 30px;
 	font-size: 30px;
@@ -38,13 +38,56 @@ body{
 	border-radius: 20px;
 } .BotonesStyle:hover{color: black; border: solid red 5px; color: red;}
 
+#endBox{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 18px;
+	width: auto;
+	height: 100px;
+	background-color: wheat;
+	color: white;
+	text-shadow: 3px 0px 2px black;
+}
+
+#ImagenReferencia{
+	border-radius: 20px;
+	width: 700px;
+	border-style: solid;
+	margin: 10px;
+}
+
+#AddReferenciaSaltaIncendio{
+	display: flex;
+	margin: 0 auto;
+	width: auto;
+	align-items: center;
+	justify-content: center;
+}.ImagenSelf{
+	width: 300px;
+	border-radius: 20px;
+	margin: 10px;
+	border: solid black 5px;
+}
+
 @media (max-width: 480px){
 	#Statuser{
 		width: 300px;
 	}
+	
 	#BoxCenter{
 		width: 380px;
-		height: 500px;
+		height: 690px;
 		font-size: 15px;
+	}
+	
+	#endBox{
+	}
+	
+	#ImagenReferencia{
+		width: 300px;
+	}
+
+	.ImagenSelf{
+		width: 90px;
 	}
 }
