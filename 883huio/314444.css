@@ -2,23 +2,26 @@ body{
 	font-family: fantasy;
 }
 
-#StartBox0{
-	background-color: wheat;
-	font-size: 30px;
-	margin: 0 auto;
-	width: 500px;
+#startBoxing{
 	text-align: center;
-	box-shadow: 4px 2px 0px;
+	margin: 30px;
+	color: red;
+	text-shadow: black 4px 4px 0px;
 }
 
-#CenterBox{
+#boxingCenters{
 	background-color: wheat;
-	box-align: center;
-	box-shadow: 4px 2px 0px;
 	margin: 0 auto;
-	width: 900px;
+	width: 500px;
 	height: 500px;
-	font-size: 44px;
+	text-align: center;
+	box-shadow: 4px 0px 0px;
+}
+
+#PreviewImagen{
+	width: 400px;
+	margin: 50px;
+	border-radius: 10px;
 }
 
 #endBox0{
@@ -64,23 +67,20 @@ header nav a {
 }header nav a:hover{color: yellow; text-shadow: black 1px 1px 4px;}
 
 @media (max-width: 480px){
-	#CenterBox{
-		width: 400px;
-		height: 300px;
-		font-size: 20px;
-		margin-top: 100px;
+
+	#boxingCenters{
+		width: 300px;
+		height: 400px;
 	}
 
-	#StartBox0{
-		font-size: 18px;
-		margin-top: 100px;
-		width: 280px;
+	#PreviewImagen{
+		width: 200px;
 	}
 
 	#endBox0{
 		width: 400px;
 		height: 100px;
-		margin-top: 100px;
+		margin-top: 180px;
 	}
 
 		header nav a{

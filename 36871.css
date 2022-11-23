@@ -86,7 +86,7 @@ header{
 
 header nav {
 	float: left;
-	line-height:200px;
+	line-height:100px;
 	display: flex;
 	list-style: none;
 }

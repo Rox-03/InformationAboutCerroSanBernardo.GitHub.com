@@ -2,23 +2,17 @@ body{
 	font-family: fantasy;
 }
 
-#StartBox0{
-	background-color: wheat;
-	font-size: 30px;
-	margin: 0 auto;
-	width: 500px;
+#boxxingStartt{
 	text-align: center;
-	box-shadow: 4px 2px 0px;
+	margin: 60px;
 }
 
-#CenterBox{
-	background-color: wheat;
-	box-align: center;
-	box-shadow: 4px 2px 0px;
+#C3mterBoxx{
 	margin: 0 auto;
-	width: 900px;
-	height: 500px;
-	font-size: 44px;
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	box-shadow: 3px 2px 4px;
 }
 
 #endBox0{
@@ -64,17 +58,10 @@ header nav a {
 }header nav a:hover{color: yellow; text-shadow: black 1px 1px 4px;}
 
 @media (max-width: 480px){
-	#CenterBox{
-		width: 400px;
-		height: 300px;
-		font-size: 20px;
-		margin-top: 100px;
-	}
 
-	#StartBox0{
-		font-size: 18px;
-		margin-top: 100px;
-		width: 280px;
+	#C3mterBoxx{
+		width: 300px;
+		height: 400px;
 	}
 
 	#endBox0{
