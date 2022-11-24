@@ -90,5 +90,6 @@ header nav a {
 	header{
 		height: 120px;
 		width: 400px;
+		overflow: auto;
 	}
 }
